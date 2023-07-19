@@ -1,9 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+<<<<<<< HEAD
+=======
+import Appbar from './components/Appbar';
+import Student from './components/Student';
+
+>>>>>>> ef8bf9b (Initialize project using Create React App)
 
 function App() {
   return (
     <div className="App">
+<<<<<<< HEAD
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -18,6 +25,11 @@ function App() {
           Learn React
         </a>
       </header>
+=======
+      <Appbar/>
+      <Student/>
+     
+>>>>>>> ef8bf9b (Initialize project using Create React App)
     </div>
   );
 }
